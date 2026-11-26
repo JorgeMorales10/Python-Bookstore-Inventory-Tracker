@@ -21,8 +21,9 @@ class BookInventory:
     for, not more and not less.
     """
 
-    def __init__(self, book_title, quantity, genre):
+    def __init__(self, action_input, book_title, quantity, genre):
         """This is defining the attributes of BookInventory showing what is necessary for validating a book"""
+        self.action_input = action_input
         self.book_title = book_title
         self.quantity = quantity
         self.genre = genre
@@ -42,10 +43,10 @@ class BookInventory:
         # REFLECTION.md's "Assumptions" section.
         pass
 
-item1 = BookInventory("Hunger games", 50 , "Action")
-item2 = BookInventory("Maze Runner", 7, "Action")
-print(item1.is_low_stock())
-print(item2.is_low_stock())
+#item1 = BookInventory("Hunger games", 50 , "Action")
+#item2 = BookInventory("Maze Runner", 7, "Action")
+#print(item1.is_low_stock())
+#print(item2.is_low_stock())
 
 def read_batch_file(filepath):
     """

@@ -17,13 +17,13 @@
 > would you check it?
 
 1. Assumption 1
-   - **Question:** _TODO_
-   - **Assumption:** _TODO_
-   - **Risk:** _TODO_
+   - **Question:** _What counts as running out for books?_
+   - **Assumption:** _My assumption is that for running out or low on stock it will have to have a quantity of less than 9 books at least to restock._
+   - **Risk:** _The risk is that it could ruin the daily sales of books and could confuse the stakeholder of the amount of books that aren't getting restock and it could hit zero before a chance to gain more._
 2. Assumption 2
-   - **Question:** _TODO_
-   - **Assumption:** _TODO_
-   - **Risk:** _TODO_
+   - **Question:** _Is this data be collecting on one day or is it separate days?_
+   - **Assumption:** _My assumption is that each of these data are being collected all in one day and the result will show me the day full result._
+   - **Risk:** _Not knowing the date or time of the data being collected could create a misinformed data and could be misused of what will be needed for the day or for the time._
 
 ## The 3+ edge cases you found and handled
 
